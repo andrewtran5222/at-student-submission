@@ -5,9 +5,9 @@ git clone $1 student-submission
 echo 'Finished cloning'
 
 if [[ -f ListExamples.java ]]
-then
-    echo "ListExamples found"
-elif
-    echo "Missing ListExamples file"
-    exit 1
+    then
+        echo "ListExamples found"
+    elif
+        echo "Missing ListExamples file"
+        exit 1
 fi
