@@ -9,7 +9,7 @@ cd student-submission
 if [[ -f ListExamples.java ]]
 then
     echo "ListExamples found"
-elif
+else
     echo "Missing ListExamples file"
     exit 1
 fi
