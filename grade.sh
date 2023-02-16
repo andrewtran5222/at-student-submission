@@ -11,4 +11,5 @@ if [[ -f ListExamples.java ]]
         echo "ListExamples found"
     elif
         echo "Missing ListExamples file"
-        exit 1
+        exit $1
+fi
