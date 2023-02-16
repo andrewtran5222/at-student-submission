@@ -7,9 +7,9 @@ echo 'Finished cloning'
 cd student-submission
 
 if [[ -f ListExamples.java ]]
-    then
-        echo "ListExamples found"
-    elif
-        echo "Missing ListExamples file"
-        exit $1
+then
+    echo "ListExamples found"
+elif
+    echo "Missing ListExamples file"
+    exit 1
 fi
